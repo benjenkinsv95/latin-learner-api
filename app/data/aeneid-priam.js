@@ -1,7 +1,8 @@
 const song = {
   name: 'Aeneid 2.526-558 – The Death of Priam, with synth',
-  author: 'Publius Vergilius Maro',
-  videoUrl: 'https://www.youtube.com/watch?v=kJj4Zr7c5OU',
+  artist: 'Publius Vergilius Maro',
+  youtubeChannel: 'HI PAWS',
+  youtubeId: 'kJj4Zr7c5OU',
   sourceLanguage: 'Latin',
   translationLanguage: 'English',
   sections: [

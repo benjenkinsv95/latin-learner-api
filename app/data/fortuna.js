@@ -1,7 +1,8 @@
 const song = {
   name: 'O Fortuna',
-  author: 'Carl Orff',
-  videoUrl: 'https://www.youtube.com/watch?v=FWiyKgeGWx0',
+  artist: 'Carl Orff',
+  youtubeChannel: 'choirlord08',
+  youtubeId: 'FWiyKgeGWx0',
   sourceLanguage: 'Latin',
   translationLanguage: 'English',
   sections: [
