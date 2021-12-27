@@ -5,6 +5,11 @@ const cors = require('cors')
 
 // require route files
 const exampleRoutes = require('./app/routes/example_routes')
+const lineRoutes = require('./app/routes/line_routes')
+const sectionRoutes = require('./app/routes/section_routes')
+const songRoutes = require('./app/routes/song_routes')
+const playlistRoutes = require('./app/routes/playlist_routes')
+
 const userRoutes = require('./app/routes/user_routes')
 
 // require middleware
@@ -57,6 +62,10 @@ app.use(requestLogger)
 
 // register route files
 app.use(exampleRoutes)
+app.use(lineRoutes)
+app.use(sectionRoutes)
+app.use(songRoutes)
+app.use(playlistRoutes)
 app.use(userRoutes)
 
 // register error handling middleware
